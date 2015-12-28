@@ -31,6 +31,7 @@ public class ApplicationTest extends ActivityUnitTestCase<MainActivity> {
 
     }
 
+	//Testing Methods
     @SmallTest
     public void testHello() {
         String actual = txt_view.getText().toString();
